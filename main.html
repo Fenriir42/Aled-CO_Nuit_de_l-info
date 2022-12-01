@@ -4,60 +4,22 @@
 		<meta charset="utf-8">
 		<title>yousk2</title>
 		<!-- <link rel="shortcut icon" type="image/jpg" href="../images/favicon.jpg"/> -->
-		<link rel="stylesheet" href="../style/page.css"> 
+		<link rel="stylesheet" href="page.css"> 
 		<!-- <script type="text/javascript" src="../scripts/test.js"></script> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	
 	<body>
+        <div class="header">
+            ‎ 
+            <h1>Header</h1>
+        </div>
 
-	<img src="../images/favicon.jpg">
-	
-	<div class="principal">
-		<h1>test</h1></br></br>
-			<form method="post" action="../php/send.php">
-				
-					<label required="required" for="sel"><h2>nep :</h2></label><br>
-						<img src="../images/perso.png"></br>
-						<input type="radio" name="sel" value="p1"/>
-						<label>a 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-						<input type="radio" name="sel" value="p2"/>
-						<label>b 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-						<input type="radio" name="sel" value="p3"/>
-						<label>c 3</label><br><br>
-						
-					<label for="nom">Indiquez le nom de votre personnage : </label>
-					<input type="text" required="required" id="nom" name="nom" value="Nom/Pseudo" onfocus="if (value=='Nom/Pseudo') value='';"  onchange="affname()" /><br><br> <!--onchange="namecorrect()"-->
-				
-					<label for="local">Séléctionnez votre continent : </label>
-					<select required="required" id="local" name="local">
-						<option value="af">Afrique</option>
-						<option value="an">Amérique du Nord</option>
-						<option value="as">Amérique du Sud</option>
-						<option value="as">Asie</option>
-						<option value="eu">Europe</option>
-						<option value="oc">Océanie</option>
-					</select><br><br>
-					
-					<label required="required" for="next">Choisissez 2 capacités pour votre personnage : </label><br>
-						<input type="checkbox" name="in" value="in"/>
-						<label>Intelligence</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="checkbox" name="ra" value="ra"/>
-						<label>Rapidité</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="checkbox" name="fo" value="fo"/>
-						<label>Force</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="checkbox" name="en" value="en"/>
-						<label>Endurance</label>&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="checkbox" name="pr" value="pr"/>
-						<label>Précision</label><br><br>
-					
-					<label for="pw">Saisissez un mot de passe (maximum 8 caractères) : </label>
-					<input class="pass" type="password" required="required" id="pw" name="pw" maxlength="8" placeholder="Saisissez votre mot de passe"/><br><br>
-					
-					<label for="pw2">Saisissez à nouveau votre mot de passe : </label>
-					<input class="pass" type="password" required="required" id="pw2" name="pw2" maxlength="8" placeholder="Répétez votre mot de passe"/ onchange="test()"><br><br>
-				
-				<input type="button" value="Envoyer &ldsh;" onclick="submit();"/>
-			</form>
-		</div>
+        <div class="container"
+            <p>This is a paragraph!<br> wololo <br> <br> <br> <br> <br> <br> <br></p>
+
+	    </div>
 	</body>
 </html>
