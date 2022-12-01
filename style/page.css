@@ -1,7 +1,7 @@
 body
 {
     margin-top: 0;
-    background: radial-gradient(#cfcfcf, #000000);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,7 +60,7 @@ width: 100%;
       }
 
       .button1 {
-        background: rgb(117, 117, 117,0);
+        background: rgb(117, 117, 117,0.5);
         color: black;
         border: 2px solid #000000;
       }
@@ -69,5 +69,13 @@ width: 100%;
         background: darkslategray;
         color: white;
       }
-
-}
+    }
+    .titre {
+      padding: 0;
+      margin-top: 0px;
+      border-top: 0px;
+      text-align: center;
+    }
+    .paragraphecentre {
+      text-align: center;
+    }
