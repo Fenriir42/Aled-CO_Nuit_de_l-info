@@ -1,33 +1,48 @@
-* { margin: 0 auto; text-align: center; }
+body
+{
+    margin-top: 0;
+    background: radial-gradient(#cfcfcf, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text
+{
+    color: #ffffff;
+    opacity: 1;
+}
 
-body { color: black; background-color: Silver; background-attachment: fixed; }
+.background {
+width: 100%;
 
-h1 { color: Red; }
-
-h2 { color: #464646; }
-
-p { text-align: justify; text-indent: 3.5em; }
-
-p.sommaire { text-align: center; text-indent: 0; }
-
-.embed { clear: both; }
-
-div.principal { background-color: Gainsboro; border-style: ridge; border-width: 1.2px; border-color: black; border-radius: 55pt; width: 80%; padding: 2%; }
-
-a { text-decoration: none; color: DarkOrange; background-color: Gainsboro; transition: all 0.5s ease-in-out; }
-
-a.homepage { text-decoration: none; color: transparent; background-color: transparent; transition: none; }
-
-a.homepage:hover { text-decoration: none; color: transparent; background-color: transparent; transition: none; }
-
-a:hover { text-decoration: none; background-color: DarkOrange; color: DimGray; }
-
-img.logo { width: 80%; }
-
-input.pass/*:focus*/:valid { outline: 2px Lime solid; }
-
-input/*:focus*/:invalid { outline: 2px Red solid; }
-
-.invalid { outline: 2px Red solid; }
-
-input[required]:not(:valid) { outline: 2px DarkOrange solid; }
+}
+.container {
+    color: #dfdfdf;
+    /* On centre */
+    margin: 0 auto;
+    font-family: 'MedievalSharp';
+    /* On limite la largeur pour les grands écrans */
+    max-width: 1280px;
+    
+    /* On gère la présence d’une marge */
+    width: 90%;
+    background: rgb(48,48,48,0.4);
+}
+    
+    /*
+    * Comme la dite marge est exprimée en pourcentage,
+    * on l’augmente sur les devices moins larges.
+    */
+    @media only screen and (min-width: 993px){
+    .container {
+    width: 85%;
+    }
+    .header {
+        padding: 0;
+        margin-top: 0px;
+        border-top: 0px;
+        text-align: center;
+        background: rgb(117, 117, 117,0.4);
+        color: white;
+        font-size: 30px;
+      }
+}
