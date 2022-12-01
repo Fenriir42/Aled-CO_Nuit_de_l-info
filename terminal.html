@@ -10,24 +10,18 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>    
 	</head>
-	
-	<body>
-        <div class="header">
-            ‎ 
-            <h1>Header</h1>
-        </div>
-
-        <div class="container">
-            <p>This is a paragraph!<br> wololo <br> <br> <br> <br> <br> <br> <br></p>
-            <a href="file:terminal.html">
-                <button class="button button1">Black</button>
-            </a>
-            <br>
-
-	    </div>
-        
-		<div class="">
-
-		</div>
-	</body>
-</html>
+<div>
+    <script>
+        $('body').terminal({
+            hello: function(what) {
+                this.echo('Hello, ' + what +
+                          '. Wellcome to this terminal.');
+            },
+            42: function() {
+                this.echo($('<img src="https://img-9gag-fun.9cache.com/photo/amA040j_460swp.webp">'));
+            }
+        }, {
+            greetings: 'My First Web Terminal'
+        });
+        </script>
+</div>
