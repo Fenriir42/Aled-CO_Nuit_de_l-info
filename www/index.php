@@ -9,7 +9,7 @@ $dbpasswd="aled&co";
 $con=mysqli_connect("localhost:3306", "root", "", "jdrt_vih");
 
 // On créé la requête
-$req = "SELECT * FROM jdrt_vih";
+$req = "UDATE * FROM jdrt_vih";
 
 // execute la requête $req en utilisant la connection $con et renvoie dans $res
 $res = $con->query($req);
@@ -19,6 +19,7 @@ $res = $con->query($req);
         <title>Test PHP</title>
     </head>
     <body>
+        print(hello world)
         <?php 
         echo '<p>Bonjour le monde</p>';
         echo "<table>";

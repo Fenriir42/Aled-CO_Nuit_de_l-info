@@ -38,10 +38,15 @@ width: 100%;
     }
 
     .header {
-        text-align: center;
+        text-align: left;
         background: rgb(117, 117, 117,0.8);
+        display: flex;
         color: white;
-        font-size: 30px;
+        font-size: 15px;
+        align-items: center;
+      }
+      .header h1{
+        flex: 1 1 auto
       }
 
       .button {
@@ -58,24 +63,45 @@ width: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
       }
-
       .button1 {
         background: rgb(117, 117, 117,0.5);
         color: black;
         border: 2px solid #000000;
       }
-    
       .button1:hover {
         background: darkslategray;
         color: white;
       }
-    }
-    .titre {
-      padding: 0;
-      margin-top: 0px;
-      border-top: 0px;
-      text-align: center;
-    }
-    .paragraphecentre {
-      text-align: center;
+      .button3 {
+        align-items: center;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .button2 {
+        background: rgb(117, 117, 117,0.5);
+        color: black;
+        border: 2px solid #000000;
+      }
+      .button2:hover {
+        background: darkslategray;
+        color: white;
+      }
+      .titre {
+        padding: 0;
+        margin-top: 0px;
+        border-top: 0px;
+        text-align: center;
+      }
+      .paragraphecentre {
+        text-align: center;
+      }
     }
