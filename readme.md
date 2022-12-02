@@ -19,7 +19,7 @@ pour installer notre solution, merci de bien vouloir faire ceci :
 sur notre site, vous pourrez
 
 - Trouvé sur la root une explication de notre jeu
-- Un bouton d'execution du jeu [Play] et un pour un easteregg [Black] d'ailleurs si vous y tapé 42, la réponse à la vie il se pourrai que l'on eussent une réponse à vous formulé. de plus dans ce meme simili terminal, vous pouvez utiliser le raccourci ctrl + L du moins au moins sur fedora.
+- Un bouton d'execution du jeu [Play] et un pour un easteregg [Black] d'ailleurs si vous y tapé 42, la réponse à la vie il se pourrai que l'on eussent une réponse à vous formulé. de plus dans ce meme simili terminal, vous pouvez utiliser le raccourci ctrl + L du moins au moins sur fedora, et exit pour sortir du terminal.
 
 ### Dans le jeu
 
